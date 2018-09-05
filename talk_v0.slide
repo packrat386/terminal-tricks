@@ -1,0 +1,69 @@
+Terminal Tricks
+Going beyond ASCII art to make CLIs pop
+
+Aidan Coyle
+UK Team
+acoyle@enova.com
+
+* Inspired By
+
+"C L Eye-Catching User Interfaces" by James Bowes at Gophercon
+
+* Text Formatting
+
+Someimtes we print big walls of text that can get hard to read.
+
+Escape codes give us tools to emphasize certain parts
+
+* Text Formatting - Demo
+
+.image text.gif _ 1500
+
+* Text Formatting - Code
+
+.code text.go /BEGIN CODE/,/END CODE/
+
+* A Progress Bar
+
+Sometimes we're going to have to make the user wait.
+
+Carriage returns let us make an animation to let the user know it's working.
+
+* A Progress Bar - Demo
+
+.image progress_bar.gif _ 1500
+
+* A Progress Bar - Code
+
+.code progress_bar.go /BEGIN CODE/,/END CODE/
+
+* Unicode
+
+Sometimes we really want to stand out from the crowd.
+
+Unicode opens up a variety of fun graphic options.
+
+* Unicode - Demo
+
+.image unicode.gif _ 1500
+
+* Why?
+
+UI/UX matters on the command line too.
+
+* Unicode - Code
+
+.code unicode.go /BEGIN CODE/,/END CODE/
+
+* Why Go?
+
+Go is nice for writing CLI tools in a number of ways
+
+- Easy installation via `go get`
+- Cross platform support with build tags
+- `rune` type makes complicated characters easier.
+
+* Resources
+
+- https://github.com/jbowes/cl-eye-catching-uis - the repo for the talk
+- https://github.com/icholy/ttygif - a useful tool for terminal recording
