@@ -47,13 +47,13 @@ Unicode opens up a variety of fun graphic options.
 
 .image unicode.gif _ 1500
 
-* Why?
-
-UI/UX matters on the command line too.
-
 * Unicode - Code
 
 .code unicode.go /BEGIN CODE/,/END CODE/
+
+* Why?
+
+UI/UX matters on the command line too.
 
 * Why Go?
 
